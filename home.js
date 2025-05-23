@@ -17,22 +17,22 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     if (btn3) {
         btn3.addEventListener('click', function() {
-            window.location.href = "About.html";
+            window.location.href = "../about/about.html";
         });
     }
     if (btn4) {
         btn4.addEventListener('click', function() {
-            window.location.href = "home.html";
+            window.location.href = "../home.html";
         });
     }
     if (btn5) {
         btn5.addEventListener('click', function() {
-            window.location.href = "howIWork.html";
+            window.location.href = "../howIWork/howIWork.html";
         });
     }
     if (btn6) {
         btn6.addEventListener('click', function() {
-            window.location.href = "caseStudies.html";
+            window.location.href = "../caseStudies/caseStudies.html";
         });
     }
 });
