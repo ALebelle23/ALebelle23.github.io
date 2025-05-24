@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const btn2 = document.getElementById('Home');
     const btn3 = document.getElementById('How I Work');
     const btn4 = document.getElementById('Case Studies');
+    const btn5 = document.getElementById('NNG');
     
     if (btn1) {
         btn1.addEventListener('click', function() {
@@ -22,6 +23,11 @@ document.addEventListener('DOMContentLoaded', function() {
     if (btn4) {
         btn4.addEventListener('click', function() {
             window.location.href = "../caseStudies/caseStudies.html";
+        });
+    }
+    if (btn5) {
+        btn5.addEventListener('click', function() {
+            window.open('https://www.nngroup.com/', '_blank');
         });
     }
 });

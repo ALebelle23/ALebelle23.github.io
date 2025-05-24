@@ -1,8 +1,8 @@
 body {
-    font-family: 'Dongle', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
     margin: 0;
     padding: 0;
-    background: #ffffff;
+    background:#33673B;
     color: #222;
 }
 
@@ -12,14 +12,7 @@ header {
     padding: 1rem 0;
 }
 
-main {
-    max-width: 1000px;
-    margin: 1rem auto;
-    padding: 1rem;
-    background: #fff;
-    border-radius: 4px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-}
+
 nav {
     display: flex;
     justify-content: flex-start; 
@@ -72,17 +65,27 @@ nav a:hover {
     color: #ffd700;
     
 }
+section{
+    margin-top: 1.5rem;
+}
+
+section h2 {
+    font-size: 2.3rem;
+    margin: 0;
+    padding: 1rem 0;
+    text-align: center;
+    color: #000000;
+}
 
 section ul {
     list-style: none;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    max-width: 900px;
-    margin: 0 auto;
+    max-width: 1200px;
     padding: 0 1rem;
-    gap: 2rem; 
+    gap: 1rem; 
+    
 }
-
 
 .image-button{
     border: none;
@@ -129,6 +132,7 @@ section ul {
     height: 300px;
 }
 .image-text {
+    pointer-events: none;
     position: absolute;
     bottom: -7px;
     left: 0;
@@ -139,6 +143,16 @@ section ul {
     padding: 12px;
     text-align: center;
     font-size: 1.3rem;
+}
+.img-img-container{
+    margin: 0 auto;
+    height: 50%;
+    width: 55%;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    margin: 0 auto;
 }
 .image-container:hover .image-text, .image-container:focus-within .image-text, .image-button:hover {
     opacity: 1;
