@@ -58,6 +58,12 @@ section li{
     list-style: none;
     
 }
+section h2{
+    font-size: 2rem;
+    margin: 0;
+    text-align: center;
+    color: #000000;
+}
 section ul {
     display: flex;
     justify-content: center;  
