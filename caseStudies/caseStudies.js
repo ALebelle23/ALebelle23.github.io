@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     if (btn7) {
         btn7.addEventListener('click', function() {
-            window.location.href = "../caseStudies/service.html";
+            window.open("https://service-site-pied.vercel.app", "_blank");
         });
     }
     if (btn8) {
