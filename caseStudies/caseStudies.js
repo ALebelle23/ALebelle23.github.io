@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     if (btn8) {
         btn8.addEventListener('click', function() {
-            window.location.href = "../caseStudies/game.html";
+           window.open("https://memory-game-9iob.vercel.app", "_blank");
         });
     }
 });
