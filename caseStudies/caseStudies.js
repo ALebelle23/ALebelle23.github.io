@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     if (btn5) {
         btn5.addEventListener('click', function() {
-            window.location.href = "../caseStudies/ecommerce.html";
+            window.open("https://atlaselectronics.vercel.app/", "_blank");
         });
     }
     if (btn6) {
