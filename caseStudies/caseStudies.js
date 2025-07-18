@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     if (btn6) {
         btn6.addEventListener('click', function() {
-            window.location.href = "../caseStudies/analytics.html";
+            window.open("https://ufolytics.vercel.app/", "_blank");
         });
     }
     if (btn7) {
