@@ -1,14 +1,25 @@
-body {
-    font-family: 'Red Hat Display', sans-serif;
+html, body {
+    height: 100%;
     margin: 0;
     padding: 0;
-    background:#33673B;
-    color: #222;
+    background-color: #b1ab86;
+    background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%230a400c' fill-opacity='0.39'%3E%3Cpath d='M50 50c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10zM10 10c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10S0 25.523 0 20s4.477-10 10-10zm10 8c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm40 40c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); 
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #819067;
+    color: #0A400C;
 }
 
 header {
-    background: #222;
-    color: #fff;
+    background: #0A400C;
+    color: #FEFAE0;
     padding: 1rem 0;
 }
 
@@ -38,20 +49,20 @@ nav ul {
 }
 
 nav a {
-    color: #fff;
+    color: #FEFAE0;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.2s;
 }
 
 nav a:hover {
-    color: #ffd700;
+    color: #B1AB86;
 }
 
 .link-button {
     background: none;
     border: none;
-    color: #ffffff;
+    color: #FEFAE0;
     text-decoration: none;
     font: inherit;
     cursor: pointer;
@@ -62,11 +73,11 @@ nav a:hover {
 }
 
 .link-button:hover {
-    color: #ffd700;
-    
+    color: #B1AB86;
 }
 section{
     margin-top: 1.5rem;
+    flex: 1;
 }
 
 section h2 {
@@ -74,7 +85,7 @@ section h2 {
     margin: 0;
     padding: 1rem 0;
     text-align: center;
-    color: #000000;
+    color: #0A400C;
 }
 
 section ul {
@@ -106,7 +117,7 @@ section ul {
 }
 
 #Analytics {
-    background-image: url('../images/UFO.jpg' );
+    background-image: url('../images/UFO.png' );
     background-size: 500px 300px;
     height: 300px;  
     width: 500px;
@@ -137,8 +148,8 @@ section ul {
     bottom: -7px;
     left: 0;
     right: 0;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: #ffffff;
+    background-color: rgba(10, 64, 12, 0.8);
+    color: #FEFAE0;
     opacity: 0;
     padding: 12px;
     text-align: center;
@@ -149,7 +160,7 @@ section ul {
     height: 50%;
     width: 55%;
     padding: 1rem;
-    background-color: #fff;
+    background-color: #FEFAE0;
     border-radius: 5px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
     margin: 0 auto;
@@ -158,4 +169,46 @@ section ul {
     opacity: 1;
     scale: 1.05;
     transition: opacity 0.5s, scale 0.5s;
+}
+
+.links-nav {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 900px;
+    background-color: #0A400C;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    color: #FEFAE0;
+    margin: 0 auto;
+}
+
+footer {
+    list-style: none;
+    text-align: left;
+    padding: 1rem 0;
+    background: #0A400C;
+    color: #FEFAE0;
+    margin-top: auto;
+}
+
+footer h1 {
+    margin-right: 2rem;
+    margin: 0;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-left: 1rem;
+}
+
+footer ul {
+    list-style: none;
+    display: absolute;
+    justify-content: center;
+    gap: 2rem;
+    margin: 10;
+    padding: 0;
+}
+
+footer a:hover {
+    color: #B1AB86;
 }

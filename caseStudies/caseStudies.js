@@ -7,6 +7,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const btn6 = document.getElementById("Analytics");
     const btn7 = document.getElementById("Service");
     const btn8 = document.getElementById("Game");
+    const btnGitHub = document.getElementById('GitHub');
+    const btnLinkedIn = document.getElementById('LinkedIn');
     
     if (btn1) {
         btn1.addEventListener('click', function() {
@@ -46,6 +48,16 @@ document.addEventListener('DOMContentLoaded', function() {
     if (btn8) {
         btn8.addEventListener('click', function() {
            window.open("https://memory-game-9iob.vercel.app", "_blank");
+        });
+    }
+    if (btnGitHub) {
+        btnGitHub.addEventListener('click', function() {
+            window.open('https://github.com/ALebelle23', '_blank');
+        });
+    }
+    if (btnLinkedIn) {
+        btnLinkedIn.addEventListener('click', function() {
+            window.open('https://www.linkedin.com/in/aidan-lebelle-469110296/', '_blank');
         });
     }
 });

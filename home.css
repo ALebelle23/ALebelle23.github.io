@@ -2,20 +2,22 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+    background-color: #b1ab86;
+    background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%230a400c' fill-opacity='0.39'%3E%3Cpath d='M50 50c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10zM10 10c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10S0 25.523 0 20s4.477-10 10-10zm10 8c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm40 40c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); 
 }
 body {
     font-family: 'Red Hat Display', sans-serif;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: #33673B;
-    color: #222;
+    background-color: #819067;
+    color: #0A400C;
 }
     
 
 header {
-    background: #222;
-    color: #fff;
+    background: #0A400C;
+    color: #FEFAE0;
     padding: 1rem 0;
 }
 
@@ -44,14 +46,14 @@ nav ul {
 }
 
 nav a {
-    color: #fff;
+    color: #FEFAE0;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.2s;
 }
 
 nav a:hover {
-    color: #ffd700;
+    color: #B1AB86;
 }
 
 
@@ -59,11 +61,11 @@ nav a:hover {
     display: flex;
     justify-content: flex-start;
     max-width: 900px;
-    background-color: #222;
+    background-color: #0A400C;
     flex-direction: row;
     display: flex;
     align-items: center;
-    color: #fff;
+    color: #FEFAE0;
  
     margin: 0 auto;
     
@@ -74,7 +76,7 @@ section {
     flex: 1;
     margin: 2rem auto;
     padding: 1rem;
-    background: #fff;
+    background: #FEFAE0;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
@@ -82,20 +84,21 @@ section {
 section h2 {
     font-size: 2rem;
     margin-top: 0;
-    color: #222;
+    color: #0A400C;
     text-align: center;
     
 }
 section p {
     font-size: large;
     line-height: 1.6;
+    text-align: center;
     
 }
 
 .link-button {
     background: none;
     border: none;
-    color: #ffffff;
+    color: #FEFAE0;
     text-decoration: none;
     font: inherit;
     cursor: pointer;
@@ -106,16 +109,16 @@ section p {
 }
 
 .link-button:hover {
-    color: #ffd700;
+    color: #B1AB86;
 }
 
 footer {
     list-style: none;
     text-align: left;
     padding: 1rem 0;
-    background: #222;
-    color: #fff;
-    margin-top: 10%;
+    background: #0A400C;
+    color: #FEFAE0;
+    margin-top: auto;
 }
 
 footer h1 {
@@ -134,7 +137,7 @@ footer ul {
     padding: 0;
 }
 footer a:hover {
-    color: #ffd700;
+    color: #B1AB86;
 }
 
 .webdev-image{
